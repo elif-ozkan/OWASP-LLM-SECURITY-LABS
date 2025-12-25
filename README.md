@@ -41,7 +41,7 @@ Bu proje, tek bir Large Language Model (LLM) üzerinde gerçekleştirilen güven
 *   **Trainable Parametre Oranı:** ~%0.2
 
 ### Veri Seti
-*   **Kaynak:** CICIDS2017 tabanlı ağ trafiği verisi
+*   **Kaynak:** Anonim ağ trafiği verisi
 *   **Çıkış Etiketleri:**
     1.  `BENIGN` (Normal Trafik)
     2.  `ATTACK` (Saldırı Trafiği)
