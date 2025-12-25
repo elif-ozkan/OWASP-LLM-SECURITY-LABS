@@ -84,5 +84,3 @@ Her test oturumunda şu veriler kayıt altına alınır:
 *   **Ham Çıktı:** Filtreleme öncesi modelin gerçek davranışı.
 *   **Güvenlik Durumu:** Zararlı girişimin engellenip engellenmediği.
 *   **Performans:** Çıkarım süresi (latency).
-
-
