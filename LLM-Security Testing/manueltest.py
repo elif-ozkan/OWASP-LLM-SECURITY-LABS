@@ -1,4 +1,9 @@
 # NOT: Bu çalışma Google Colab ortamında geliştirilmiştir ve test edilmiştir.
+"""
+Manual LLM Security Testing Script
+Focused on OWASP LLM Top 10 attack scenarios.
+This script is part of an educational security lab project.
+"""
 import os
 import json
 import torch
@@ -253,3 +258,4 @@ if __name__ == "__main__":
     if MANUAL_TEST_MODE:
         tester = ManualTester(model, tokenizer)
         tester.interactive_test()
+
