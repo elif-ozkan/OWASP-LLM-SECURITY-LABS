@@ -19,10 +19,8 @@ Projenin ana odak noktası model performansı değil, model güvenliği ve davra
 
 ---
 
-## 📌 Mevcut Kapsam ve Durum
-
-> [!TIP]
-> **🚧 AKTİF GELİŞTİRME:** Bu proje sürekli olarak güncellenmekte ve yeni güvenlik test senaryoları eklenmektedir. Geliştirmeler devam etmektedir.
+## 📌 Mevcut Durumu
+**AKTİF GELİŞTİRME:** Bu proje sürekli olarak güncellenmekte ve yeni güvenlik test senaryoları eklenmektedir. Geliştirmeler devam etmektedir.
 
 Proje Temel Yapısı
 | 1 adet LLM Modeli | ✅ |
