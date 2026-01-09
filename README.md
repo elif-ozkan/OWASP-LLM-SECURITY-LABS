@@ -14,8 +14,8 @@ Bu proje, tek bir Large Language Model (LLM) üzerinde gerçekleştirilen güven
 *   **Reliability:** Hallucination (halüsinasyon) ve görev sapması eğilimleri.
 *   **Compliance:** OWASP Top 10 for LLM Applications kapsamındaki risk analizleri.
 
-> [!IMPORTANT]
-> Projenin ana odak noktası model performansı değil, model güvenliği ve davranışsal zafiyetlerin tespitidir. Tespit edilen bu zafiyetlerden yola çıkılarak ileri seviyede LLM güvenliğinin arttırılması geliştirilen sistemin  IDS sistemlere entegrasyonu amaçlanmaktadır
+
+Projenin ana odak noktası model performansı değil, model güvenliği ve davranışsal zafiyetlerin tespitidir. Tespit edilen bu zafiyetlerden yola çıkılarak ileri seviyede LLM güvenliğinin arttırılması geliştirilen sistemin  IDS sistemlere entegrasyonu amaçlanmaktadır
 
 ---
 
@@ -24,7 +24,7 @@ Bu proje, tek bir Large Language Model (LLM) üzerinde gerçekleştirilen güven
 > [!TIP]
 > **🚧 AKTİF GELİŞTİRME:** Bu proje sürekli olarak güncellenmekte ve yeni güvenlik test senaryoları eklenmektedir. Geliştirmeler devam etmektedir.
 
-| Özellik | Durum |
+Proje Temel Yapısı
 | 1 adet LLM Modeli | ✅ |
 | Fine-tuning (LoRA / PEFT) | ✅ |
 | Manuel Etkileşimli Test Sistemi | ✅ |
