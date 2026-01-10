@@ -17,7 +17,7 @@ try:
 except ImportError:
     pass
 
-# TRL kütüphanesini kontrol et
+
 try:
     from trl import SFTTrainer
     USE_SFT_TRAINER = True
@@ -27,14 +27,14 @@ except ImportError:
 # ==========================================
 # 🔐 KONFIGURASYON 
 # ==========================================
-# Gerçek yollar `.env` dosyasından veya ortam değişkenlerinden okunur.
+
 
 MODEL_ID = os.getenv("MODEL_ID", "TinyLlama/TinyLlama-1.1B-Chat-v1.0")
 CSV_PATH = os.getenv("CSV_PATH", "data/test_data.csv")
 OUT_PATH = os.getenv("OUT_PATH", "data/processed_data.jsonl")
 OUTPUT_DIR = os.getenv("OUTPUT_DIR", "./models/network-traffic-finetuned")
 
-# ÇALISMA MODLARI
+
 QUICK_TEST = os.getenv("QUICK_TEST", "False").lower() == "true"
 MANUAL_TEST_MODE = os.getenv("MANUAL_TEST_MODE", "True").lower() == "true"
 SKIP_TRAINING = os.getenv("SKIP_TRAINING", "False").lower() == "true"
@@ -253,3 +253,4 @@ if __name__ == "__main__":
     if MANUAL_TEST_MODE:
         tester = ManualTester(model, tokenizer)
         tester.interactive_test()
+
