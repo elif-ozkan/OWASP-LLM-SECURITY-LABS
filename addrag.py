@@ -114,8 +114,8 @@ class Config:
     OUTPUT_DIR: str = "./tinyllama-cicids-finetuned"
 
     # Data
-    CSV_PATH: str = "/content/drive/MyDrive/VERİ SETLERİ/CICIDS2017 TEST-TRAIN/train_data.csv"
-    JSONL_PATH: str = "/content/drive/MyDrive/VERİ SETLERİ/CICIDS2017 TEST-TRAIN/cicids_tinyllama.jsonl"
+    CSV_PATH: str = "csv veri yolu"
+    JSONL_PATH: str = "jsonl dosya yolu"
 
     # Quick test mode
     QUICK_TEST: bool = True
@@ -1609,3 +1609,4 @@ if __name__ == "__main__":
         tester.interactive()
 
     print("\n✅ AI-SOC Security Framework Tamamlandı.")
+
